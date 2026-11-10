@@ -18,7 +18,7 @@ Estudante de Ciência da Computação na PUC Goiás (formatura em dez/2027), com
 
 - 🏦 **Governança de Dados no PagBank:** KPIs de governança sobre dados do Redshift, produtização de dados com linhagem, observabilidade e classificação de sensibilidade.
 - 🤖 **Desenvolvedor de IA no CEIA** (Centro de Excelência em IA): pipelines de RAG e orquestração de agentes, incluindo uma POC que avaliou 12 métodos de chunking sobre 8.318 perguntas reais.
-- 🔬 **Pesquisa (iniciação científica):** classificação de bactérias multirresistentes (MRSA) a partir de imagens hiperespectrais com machine learning.
+- 🔬 **Pesquisa (iniciação científica, CNPq):** classificação de bactérias multirresistentes a partir de imagens hiperespectrais SWIR com LightGBM ([código aberto](https://github.com/Athurgomes/IC-LightGBM)).
 - 🎤 Palestrante na comunidade AWS Community Builders sobre governança de dados como base para IA.
 
 ---
@@ -29,12 +29,22 @@ Estudante de Ciência da Computação na PUC Goiás (formatura em dez/2027), com
 <tr>
 <td width="50%" valign="top">
 
+#### 🔬 [IC · Bactérias multirresistentes com HSI + LightGBM](https://github.com/Athurgomes/IC-LightGBM)
+Iniciação Científica (CNPq · PUC Goiás): distinção entre *S. aureus* resistente e sensível com **imagens hiperespectrais SWIR**. Calibração radiométrica, segmentação por Hough, quimiometria (MSC, Savitzky-Golay), seleção de bandas e LightGBM com **validação sem vazamento**, nested CV e teste de permutação.
+
+`LightGBM` `scikit-learn` `Quimiometria` `Hyperspectral` `Pesquisa`
+
+</td>
+<td width="50%" valign="top">
+
 #### ☁️ [Serverless-Financeiro](https://github.com/Athurgomes/Serverless-Financeiro)
 Pipeline **orientado a eventos e 100% serverless** para transações financeiras: API Gateway, Lambda, fan-out SNS/SQS com DLQs, data lake no S3 particionado (Hive), DynamoDB, Glue Data Catalog e Athena. Infra em AWS SAM, idempotência, CPF mascarado (LGPD) e testes ponta a ponta com moto.
 
 `Python` `AWS SAM` `Lambda` `SNS/SQS` `S3` `DynamoDB` `Athena`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### ✋ [HigenAI · handwash_model](https://github.com/Hackton-CEIA-META/handwash_model)
@@ -43,8 +53,6 @@ Reconhecimento dos passos da técnica OMS de higienização das mãos (Programa 
 `TensorFlow` `MediaPipe` `TFLite` `Computer Vision`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🧮 [DreamBOT · Math Agent](https://github.com/Athurgomes/DreamBOT-Math_Agent)
@@ -53,6 +61,8 @@ Agente de IA com **Strands Agents SDK** e LLM local (Llama 3.1 via Ollama) que d
 `LLM` `Agents` `FastAPI` `Ollama` `Docker`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🌾 [Performance Agrícola](https://github.com/Athurgomes/Performance-Agricola)
@@ -61,22 +71,12 @@ Dashboard de agricultura de precisão em Power BI: correlação entre fertilizan
 `Power BI` `DAX` `Análise de Dados` `BI`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🧬 [Metaheurística · Job Shop](https://github.com/Athurgomes/Desafio-Metaheuristica-Edital-Smart-Job)
 Busca Tabu híbrida com Algoritmo Genético para minimizar o *makespan* em Job Shop Scheduling, com avaliação paralela e gráfico de Gantt.
 
 `Otimização` `Algoritmo Genético` `Busca Tabu`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🐾 [AdotaPet](https://github.com/Athurgomes/adotapet)
-Plataforma comunitária de adoção de animais em **microsserviços** com MongoDB e Docker Compose.
-
-`Node.js` `Microsserviços` `MongoDB` `Docker`
 
 </td>
 </tr>
