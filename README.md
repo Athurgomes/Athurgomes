@@ -117,8 +117,6 @@ Plataforma comunitária de adoção de animais em **microsserviços** com MongoD
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Athurgomes&layout=compact&hide_border=true&bg_color=0f172a&title_color=3b82f6&text_color=e2e8f0&langs_count=6" height="160" alt="Linguagens mais usadas"/>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=100&section=footer" width="100%"/>
 
 </div>
